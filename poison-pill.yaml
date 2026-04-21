@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: poison-pill-cert
+  namespace: sre-system
+type: kubernetes.io/tls
+data:
+  # "Not a real certificate" encoded in Base64
+  tls.crt: Tm90IGEgcmVhbCBjZXJ0aWZpY2F0ZQ==
+  tls.key: Tm90IGEgcmVhbCBrZXk=
