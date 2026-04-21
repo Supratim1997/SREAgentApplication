@@ -29,7 +29,7 @@ spec:
         - name: DOCKER_STEPCA_INIT_DNS_NAMES
           value: "step-ca.sre-system.svc.cluster.local,localhost"
         - name: DOCKER_STEPCA_INIT_PASSWORD
-          value: "password123"
+          value: "password"
 ---
 apiVersion: v1
 kind: Service

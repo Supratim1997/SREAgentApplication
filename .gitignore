@@ -3,6 +3,14 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+long-lived.crt
+long-lived.key
+short-lived.crt
+short-lived.key
+*.key
+*.crt
+mvnw
+mvnw.cmd
 
 ### STS ###
 .apt_generated

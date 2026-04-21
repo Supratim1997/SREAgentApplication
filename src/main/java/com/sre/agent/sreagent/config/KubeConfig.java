@@ -14,4 +14,5 @@ public class KubeConfig {
         // Automatically picks up ~/.kube/config from WSL
         return new KubernetesClientBuilder().build();
     }
+    
 }
