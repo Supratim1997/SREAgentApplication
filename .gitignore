@@ -9,6 +9,7 @@ short-lived.crt
 short-lived.key
 *.key
 *.crt
+*.bak
 mvnw
 mvnw.cmd
 
